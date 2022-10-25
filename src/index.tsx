@@ -1,7 +1,8 @@
-import { createRoot } from "react-dom/client";
-import App from './App';
+import React from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App'
 import './style.scss'
 
-const container = document.getElementById('root') as HTMLDivElement;
-const root = createRoot(container);
+const container = document.getElementById('root') as HTMLDivElement
+const root = createRoot(container)
 root.render(<App/>)
